@@ -107,7 +107,7 @@ export const capturePhoto = (video: HTMLVideoElement): HTMLCanvasElement => {
 // Function to download the photo strip
 export const downloadPhotoStrip = (
   dataUrl: string,
-  filename = "pic-a-pix-photostrip.png"
+  filename = "Pic-a-Pix_@driyqnn - pic-a-pix.vercel.app.png"
 ): void => {
   const link = document.createElement("a");
   link.href = dataUrl;
