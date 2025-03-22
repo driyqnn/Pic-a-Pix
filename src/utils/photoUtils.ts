@@ -74,7 +74,7 @@ export const createPhotoStrip = (
     // Center bottom: Website URL
     ctx.textAlign = "center";
     ctx.font = "14px Inter, sans-serif";
-    ctx.fillText("website url", template.width / 2, template.height - 10);
+    ctx.fillText("pic-a-pix.vercel.app", template.width / 2, template.height - 10);
 
     // Convert canvas to data URL
     const dataUrl = canvas.toDataURL("image/png");
